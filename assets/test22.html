@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro Image to Homepage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+    }
+    .preloader {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-image: url(Mercedes-Benz\ SLS\ AMG\ Ca.png);
+      background-size: cover;
+      animation: hidePreloader 3s forwards;
+    }
+    @keyframes hidePreloader {
+      0% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+    .content {
+      opacity: 0;
+      animation: showContent 3s forwards;
+      animation-delay: 3s;
+      text-align: center;
+      padding-top: 100px;
+      font-family: sans-serif;
+
+    }
+    @keyframes showContent {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+<div class="preloader"></div>
+
+<div class="content">
+  <h1>Welcome to My Website</h1>
+  <p>This is the homepage content.</p>
+</div>
+
+</body>
+</html>
