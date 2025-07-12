@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no referral">
 </head>
 <body>
-    <div class="welcome"><h1>THIS OUGHT TO CONTAIN AN ICON AND BUSINESS NAME, THIS WOULD BE THE FIRST THING A USER ENCOUTERS</h1>
+    <div class="welcome">
+        <!-- <h1>THIS OUGHT TO CONTAIN AN ICON AND BUSINESS NAME, THIS WOULD BE THE FIRST THING A USER ENCOUTERS</h1> -->
+         <img class="welogo" src="assets/ROYCE AUTOS.png" width=40%" alt="" srcset="">
         <video src="assets/istockphoto-851396510-640_adpp_is.mp4" autoplay logo alt="">
     </div>
     <section id="hero" class="headSection">
@@ -16,7 +18,8 @@
     <button class="car"><i class="fa-solid fa-car"></i></button>
 
     <div class="headline">
-        <div class="icon">ICON</div>
+        <div class="icon"><img src="assets/RA LOGO.png" width="50%" alt="" srcset=""></div>
+        
         <div class="navigation">NAVIGATION</div>
     </div>
     
@@ -26,39 +29,58 @@
 
                 <li id="audi" data-img="assets/Audi RS7 Audi R8 Audi Quattro Audi RS 6.png"><img onclick="audi()" class="listedImg" src="assets/Audi RS7 Audi R8 Audi Quattro Audi RS 6.png" width="200"></li>
 
-                <li data-img="assets/Chevrolet Camaro Car General Motors Chevrolet Tahoe,.png" ><img class="listedImg"  src="assets/Chevrolet Camaro Car General Motors Chevrolet Tahoe,.png" alt=""></li>
+                <li id="camaro" data-img="assets/Chevrolet Camaro Car General Motors Chevrolet Tahoe,.png" ><img class="listedImg"  src="assets/Chevrolet Camaro Car General Motors Chevrolet Tahoe,.png" alt=""></li>
 
-                <li data-img="assets/Hilux Car Toyota Land Cruiser Pickup truck.png" ><img  class="listedImg" src="assets/Hilux Car Toyota Land Cruiser Pickup truck.png" alt=""></li>
+                <li  id="pickup"  data-img="assets/Hilux Car Toyota Land Cruiser Pickup truck.png" ><img  class="listedImg" src="assets/Hilux Car Toyota Land Cruiser Pickup truck.png" alt=""></li>
                 
-                <li data-img="assets/Mercedes-Benz SLS AMG Ca.png" ><img  class="listedImg" src="assets/Mercedes-Benz SLS AMG Ca.png" alt=""></li>
+                <li  id="amg"  data-img="assets/Mercedes-Benz SLS AMG Ca.png" ><img  class="listedImg" src="assets/Mercedes-Benz SLS AMG Ca.png" alt=""></li>
 
-                <li data-img="assets/Toyota Corolla Car.png"><img class="listedImg"  src="assets/Toyota Corolla Car.png" alt=""></li>
+                <li id="corolla" data-img="assets/Toyota Corolla Car.png"><img class="listedImg"  src="assets/Toyota Corolla Car.png" alt=""></li>
 
-                <li data-img="assets/Toyota Fortuner TRD Sportivo.png" ><img class="listedImg"  src="assets/Toyota Fortuner TRD Sportivo.png" alt=""></li>
+                <li  id="innova"  data-img="assets/Toyota Innova SUV,.png" ><img class="listedImg"  src="assets/Toyota Innova SUV,.png" alt=""></li>
 
-                <li data-img="assets/Toyota Innova SUV,.png" ><img class="listedImg"  src="assets/Toyota Innova SUV,.png" alt=""></li>
-
-                <li data-img="assets/pngwing.com.png" ><img  class="listedImg" src="assets/pngwing.com.png" alt=""></li>
+                <li  id="bmw"  data-img="assets/pngwing.com.png" ><img  class="listedImg" src="assets/pngwing.com.png" alt=""></li>
                 
-                <li data-img="assets/White BMW M2 Coupe Front View Car.png" ><img  class="listedImg" src="assets/White BMW M2 Coupe Front View Car.png" alt=""></li>
+                <li  id="bmwm"  data-img="assets/White BMW M2 Coupe Front View Car.png" ><img  class="listedImg" src="assets/White BMW M2 Coupe Front View Car.png" alt=""></li>
 
             </ul>
             
             <div class="image" id="display">
+                <h3 id="onload">Explore our selection of high-quality vehicles tailored to your style and budget.
+                <br>
+                To learn more about any car, simply click on the car image to the right of your screen. 
+                <br>
+                    Each click reveals the car’s full specifications — including 
+                    <ul>
+                        
+                        <li>Model</li>
+                  
+                        <li>Year</li>
+                   
+                        <li>Mileage</li>
+                
+                        <li>Engine type</li>
+                  
+                        <li>Features</li>
+                        
+                        <li>Pricing</li>
+                    </ul> 
 
-                <img id="mainImage" alt="Select image">
+                Start browsing now and find the car that fits your journey.
+
+</h3> 
+                <img id="mainImage" >
             </div>
 
             <div class="specificity" id="specificity">
-              
-                <h2>Audi RS7</h2>
-                <p>
-                    <ul>
-                        <li data-text="Engine: 4.0-liter twin-turbocharged V8</li>
-                            <li>Horsepower: ~621 hp"></li>
-                    </ul>
-                </p>
-                <img id="mainText" alt="">
+
+            <ul id="particulars">       
+            
+             
+            </ul>
+
+            </ul>
+
                 
             </div>
         </div>
@@ -67,9 +89,7 @@
 
     <div class="neck">
 
-        <div class="writeup">
-        For the love of luxury
-        </div>
+       
 
         <div class="video_div">  
             <video class="video_class" src="assets/11957140_1920_1080_60fps.mp4"autoplay loop></video>

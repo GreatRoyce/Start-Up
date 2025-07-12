@@ -79,7 +79,7 @@ body{
 .headSection{
     opacity: 0;
     animation: embold 5s forwards;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(4, 1, 16));  
+    background-image: linear-gradient(rgb(236, 205, 180), rgb(4, 1, 16));  
 }
 @keyframes embold {
     to{
@@ -92,7 +92,6 @@ body{
     align-items: center;
     height: 10vh;
     background-color: white;
-    border: 1px solid black;
     box-shadow: 3px 3px 7px rgba(0,0,0, 0.5);
 
 }
@@ -100,10 +99,8 @@ body{
     margin-left: 5%;
     width: 10%;
     height: 8vh;
-    border: 2px solid black;
     text-align: center;
-    align-content: center;
-    
+    margin-top: -2dvh;
 }
 .navigation{
     text-align: center;
@@ -149,10 +146,13 @@ body{
     position: relative;
     transition: all 2s ease;
     padding-left: 3%;
+    
 }
 .specificity{
     width: 35%;
     padding-left: 3%;
+    
+
 }
 .writeup{
     position: absolute;
@@ -181,4 +181,29 @@ body{
 }
 .video_div{
     height: 50%;
+}
+#particulars{
+    margin-top: 5dvh ;
+    font-size: 16px;
+    background-image: url(assets/pngwing.com\ \(5\).png);
+}
+#onload{
+    border-radius: 10vh;
+    padding: 10vh;
+    margin-top: -40dvh;
+    color:linear-gradient( black, rgb(239, 226, 84));
+    text-align: left;
+    position: absolute;
+    background-size: contain;
+    background-repeat:  no-repeat;
+    background-position-y: center;
+    font-weight: lighter;
+    background-image: url(assets/pngwing.com\ \(2\).png);
+    font-size: 18px;
+}
+.stronger{
+    font-size: 24px;
+}
+.welogo{
+    margin-top: 15dvh;
 }
